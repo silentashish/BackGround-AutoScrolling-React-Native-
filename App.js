@@ -29,6 +29,10 @@ import SearchInput from './SearchInput';
 import {Dimensions} from 'react-native';
 const { width, height } = Dimensions.get('window');
 
+//React-navigation is use to move between screen and creating them
+import { createStackNavigator, createAppContainer } from 'react-navigation';
+
+
 export default class MyActivity extends Component{
   // componentDidMount() executed once after native ui component rendering 
   // stop in app
